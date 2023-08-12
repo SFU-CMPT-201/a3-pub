@@ -1,13 +1,17 @@
-# Compilation process
+# Basics of compilation
 
 One of the most essential tools for software development is a compiler. Without a compiler, we
-cannot generate an executable from our source code. In this assignment, you will learn various
-aspects of a compiler and practice them. There are three tasks you need to do.
+cannot generate an executable from our source code. In this assignment and next, you will learn
+various aspects of a compiler and practice them.
+
+Similar to the tutorials that you have done earlier, this assignment consists of reading and
+practicing. For the reading part, you need to study it like reading a textbook. It is not a
+description of the assignment but a task itself. Make sure you understand what is there before you
+proceed.
 
 ## Task 0: Understanding the compilation steps
 
-This task is a reading task. Make sure you understand the following before proceeding to the next
-task.
+(This is a reading task. Make sure you read and understand this before you proceed.)
 
 Conventionally, when we say we "compile" C code, we understand it to mean generating executables
 from source files. However, strictly speaking, this is *not* correct because there are multiple
@@ -35,8 +39,6 @@ steps.
   machine-specific instructions, which again we do not discuss here.
 * Linking: This is the final step of generating an executable. In the most basic form, the *linker*
   takes all `.o` files and combines them to generate a single executable.
-
-Now, let's see how these steps play out with actual code.
 
 ## Task 1: Using the compiler
 
@@ -74,7 +76,7 @@ In this task, you will create some `.c` files and compile them. For grading, you
   executable named `main.1`. Run the executable and check the output.
 * After you're done with the above, enter `exit` to stop recording. As you know already, you can
   pause and resume with `exit` and `script -a`.
-* Once you're done, push all the files in the current directory for grading.
+* Once you're done, push all the files you have for grading.
 
 # Next steps
 
