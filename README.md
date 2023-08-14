@@ -58,8 +58,7 @@ In this task, you will create some `.c` files and compile them. For grading, you
   executable and check if it prints out `Hello World!`.
 * Create two files, one named `main.c` and the other named `other.c`. In `other.c`, write a function
   that prints out `Other invoked`. In `main.c`, write a main function that calls the function in
-  `other.c`. You should also add a header file and use it appropriately (which we assume that you
-  know how already---Google it if not).
+  `other.c`.
 * Enter `clang main.c other.c` which generates an executable with the default name. Run it and check
   if it prints out `Other invoked`.
 * Enter a command that will generate an executable named `main`. Once generated, run it and check if
