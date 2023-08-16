@@ -1,4 +1,4 @@
-# Basics of compilation
+# Assignment 3: Basics of compilation
 
 One of the most essential tools for software development is a compiler. Without a compiler, we
 cannot generate an executable from our source code. In this assignment and next, you will learn
@@ -44,6 +44,16 @@ steps.
 
 In this task, you will create some `.c` files and compile them. For grading, you need to use
 `script` to record what you do.
+
+One thing to note before we proceed is that we have installed a linter and a formatter for
+C/C++---[Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/index.html) and
+[ClangFormat](https://clang.llvm.org/docs/ClangFormat.html). As you write your C code, you will
+notice that our Neovim will provide error messages and suggestions, and also fix the code style. As
+mentioned earlier, these are very common programming tools and you are highly encouraged to use
+these tools for all your programming tasks. These tools teach you how to write clean and reliable
+code with best practices.
+
+Now, here is the list of things you need to do for this task.
 
 * First, make sure you're recording (`script -a`, which will record what you do to a file named
   `typescript`).
