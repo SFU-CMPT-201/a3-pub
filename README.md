@@ -43,7 +43,7 @@ steps.
 ## Task 1: Using the compiler
 
 In this task, you will create some `.c` files and compile them. For grading, you need to use
-`script` to record what you do.
+`record` to record what you do.
 
 One thing to note before we proceed is that we have installed a linter and a formatter for
 C/C++---[Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/index.html) and
@@ -55,8 +55,8 @@ teach you how to write clean and reliable code with best practices.
 
 Now, here is the list of things you need to do for this task.
 
-* First, make sure you're recording (`script -a`, which will record what you do to a file named
-  `typescript`).
+* First, make sure you're recording (using `record`, which will record what you do to in a directory
+  named `.log`). Make sure you see `[recording]` in your prompt.
 * Create a file named `test.c` that prints out `Hello World!`.
 * Enter `clang test.c` and see what it generates. [Clang](https://clang.llvm.org/) is a C/C++
   compiler that we use in this course (an alternative would be [GCC](https://gcc.gnu.org/), which we
@@ -85,8 +85,9 @@ Now, here is the list of things you need to do for this task.
 * Enter a command that will run the linker that combines `main.o` and `other.o` to generate an
   executable named `main.1`. Run the executable and check the output.
 * After you're done with the above, enter `exit` to stop recording. As you know already, you can
-  pause and resume with `exit` and `script -a`.
-* Once you're done, push all the files you have for grading.
+  later come back and enter `record` to start recording again.
+* Once you're done, push all the files/directories you created, including `.log/` and `.nvim/`, for
+  grading.
 
 # Next steps
 
