@@ -68,7 +68,7 @@ Now, here is the list of things you need to do for this task.
   executable and check if it prints out `Hello World!`.
 * Create two files, one named `main.c` and the other named `other.c`. In `other.c`, write a function
   that prints out `Other invoked`. In `main.c`, write a main function that calls the function in
-  `other.c`.
+  `other.c`. You can create a header file, if you so choose.
 * Enter `clang main.c other.c` which generates an executable with the default name. Run it and check
   if it prints out `Other invoked`.
 * Enter a command that will generate an executable named `main`. Once generated, run it and check if
@@ -76,7 +76,8 @@ Now, here is the list of things you need to do for this task.
 * Now, when you run `clang main.c other.c`, Clang conveniently combines all the compile steps
   described earlier and generates an executable. However, we can run each step separately.
 * Enter `clang -E main.c`. This runs only the preprocessor on `main.c`. Check the output to see how
-  it looks like. You can also try `clang -E other.c`.
+  it looks like. It should have expanded your source code significantly with the header files and
+  macros all replaced and included. You can also try `clang -E other.c`.
 * Enter `clang -c main.c`. This runs both the preprocessor and the compiler to generate an object
   file (`.o`) from `main.c`. List the files in the current directory to see what it generates.
 * Enter a command that will generate an object file from `other.c`.
