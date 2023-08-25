@@ -56,7 +56,7 @@ teach you how to write clean and reliable code with best practices.
 Now, here is the list of things you need to do for this task.
 
 * First, make sure you're recording (using `record`, which will record what you do to in a directory
-  named `.log`). Make sure you see `[recording]` in your prompt.
+  named `.record`). Make sure you see `[recording]` in your prompt.
 * Create a file named `test.c` that prints out `Hello World!`.
 * Enter `clang test.c` and see what it generates. [Clang](https://clang.llvm.org/) is a C/C++
   compiler that we use in this course (an alternative would be [GCC](https://gcc.gnu.org/), which we
@@ -87,8 +87,8 @@ Now, here is the list of things you need to do for this task.
   executable named `main.1`. Run the executable and check the output.
 * After you're done with the above, enter `exit` to stop recording. As you know already, you can
   later come back and enter `record` to start recording again.
-* Once you're done, push all the files/directories you created, including `.log/` and `.nvim/`, for
-  grading.
+* Once you're done, push all the files/directories you created, including `.record/` and `.nvim/`,
+  for grading.
 
 # Next steps
 
