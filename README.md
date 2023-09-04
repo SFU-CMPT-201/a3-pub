@@ -49,7 +49,7 @@ One thing to note before we proceed is that we have installed a linter and a for
 C/C++---[Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/index.html) and
 [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html). As you write your C code, you will
 notice that our Neovim will provide error messages and suggestions, and also fix the code style. As
-mentioned before, these are very common programming tools and you are highly encouraged to use these
+mentioned before, these are very common programming tools and we highly encourage you to use these
 tools for all your programming tasks, regardless of the language and the editor you use. These tools
 teach you how to write clean and reliable code with best practices.
 
