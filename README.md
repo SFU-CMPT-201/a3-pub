@@ -1,4 +1,4 @@
-# Assignment 3: Basics of compilation
+# Assignment 3: Basics of Compilation
 
 One of the most essential tools for software development is a compiler. Without a compiler, we
 cannot generate an executable from our source code. In this assignment and next, you will learn
@@ -9,7 +9,7 @@ practicing. For the reading part, you need to study it like reading a textbook. 
 description of the assignment but a task itself. Make sure you understand what is there before you
 proceed.
 
-## Task 0: Understanding the compilation steps
+## Task 0: Understanding the Compilation Steps
 
 (This is a reading task. Make sure you read and understand this before you proceed.)
 
@@ -40,7 +40,7 @@ steps.
 * Linking: This is the final step of generating an executable. In the most basic form, the *linker*
   takes all `.o` files and combines them to generate a single executable.
 
-## Task 1: Using the compiler
+## Task 1: Using the Compiler
 
 In this task, you will create some `.c` files and compile them. For grading, you need to use
 `record` to record what you do.
@@ -90,7 +90,7 @@ Now, here is the list of things you need to do for this task.
 * Once you're done, push all the files/directories you created, including `.record/` and `.nvim/`,
   for grading.
 
-# Next steps
+# Next Steps
 
 You need to accept the invite for the next assignment (A4).
 
