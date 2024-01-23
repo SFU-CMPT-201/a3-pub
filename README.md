@@ -117,7 +117,7 @@ program to use, and there are many libraries available online such as GitHub tha
 use.
 
 Going back to glibc, many Linux distros have two files that contain the compiled code for glibc. One
-is `*libc.a*` and the other is `*libc.so*`. You can find where these files are located by entering
+is `libc.a` and the other is `libc.so`. You can find where these files are located by entering
 `clang --print-file-name=libc.a` and `clang --print-file-name=libc.so`.
 
 Why are there two files, you might ask? These are two types of libraries that exist, serving
