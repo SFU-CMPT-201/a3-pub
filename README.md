@@ -9,6 +9,12 @@ practicing. For the reading part, you need to study it like reading a textbook. 
 description of the assignment but a task itself. Make sure you understand what is there before you
 proceed.
 
+## Important Note
+
+You ***should not*** copy and paste the code or command examples here. You have to type them
+yourself and understand the meanings. If you copy and paste, you ***will not*** get any credit
+for this assignment.
+
 ## Task 0: Understanding the Compilation Steps
 
 (This is a reading task. Make sure you read and understand this before you proceed.)
