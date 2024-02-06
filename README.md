@@ -11,9 +11,9 @@ proceed.
 
 ## Important Note
 
-You ***should not*** copy and paste the code or command examples here. You have to type them
-yourself and understand the meanings. If you copy and paste, you ***will not*** get any credit
-for this assignment.
+You ***should not*** copy and paste the code or command examples. You have to type them yourself
+and understand the meanings. If you copy and paste, you ***will not*** get any credit for this
+assignment.
 
 ## Task 0: Understanding the Compilation Steps
 
