@@ -277,7 +277,7 @@ for development. Here are a few more options that you definitely want to know ab
       will be very useful.
     * On our VM, you can use tab completion to get the list of available sanitizers. Type in `clang
       -fsanitize=` and press `<Tab>`.
-* `-O1`, `-O2`, and `-O3`: This options controls the level of optimization (a higher number means
+* `-O1`, `-O2`, and `-O3`: These options controls the level of optimization (a higher number means
   more optimization). You don't want to use optimization when debugging, since it behaves
   differently.
 
