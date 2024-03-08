@@ -242,7 +242,7 @@ grading, you need to use `record` to record what you do.
 * Once these are all done, stop the recording and push all the files/directories, including
   `.record/` and `.nvim/`, for grading.
 
-# Other Compiler Options
+# Other Important Compiler Options
 
 As you gain more experience with compilers, you will learn that there are many more options useful
 for development. Here are a few more options that you definitely want to know about and use.
@@ -253,7 +253,7 @@ for development. Here are a few more options that you definitely want to know ab
   `hello.h` (not `hello/hello.h`) and provide `-I./hello` to tell the compiler that there are header
   files in `./hello`.
 * `-g`: This option produces debugging information. You don't want to use this for production code
-  but you do want to use it for debugging. But you do want to use this for your development, even
+  but you do want to use it for debugging. You also do want to use this for your development, even
   for this course.
 * `-Wall`: This option turns on many warnings. It is a very good idea to use this.
 * `-Wextra`: This option turns on some other warnings not covered by `-Wall`. It is also a very good
