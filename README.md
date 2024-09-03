@@ -9,12 +9,6 @@ practicing. For the reading part, you need to study it like reading a textbook. 
 description of the assignment but a task itself. Make sure you understand what is there before you
 proceed.
 
-## Important Note
-
-You ***should not*** copy and paste the code or command examples. You have to type them yourself
-and understand the meanings. If you copy and paste, you ***will not*** get any credit for this
-assignment.
-
 ## Task 0: Understanding the Compilation Steps
 
 (This is a reading task. Make sure you read and understand this before you proceed.)
@@ -75,7 +69,8 @@ Now, here is the list of things you need to do for this task.
   executable and check if it prints out `Hello World!`.
 * Create two files, one named `main.c` and the other named `other.c`. In `other.c`, write a function
   that prints out `Other invoked`. In `main.c`, write a main function that calls the function in
-  `other.c`. You can create a header file, if you so choose.
+  `other.c`. You should also create a header file, `other.h` that contains the function definition
+  for `other.c` and use it in `main.c`.
 * Enter `clang main.c other.c` which generates an executable with the default name. Run it and check
   if it prints out `Other invoked`.
 * Enter a command that will generate an executable named `main`. Once generated, run it and check if
@@ -241,6 +236,18 @@ grading, you need to use `record` to record what you do.
   directory, the OS won't be able to find the shared library.
 * Once these are all done, stop the recording and push all the files/directories, including
   `.record/` and `.nvim/`, for grading.
+* As with previous assignments, make sure you run `a3-checker` to check if your work is ready for
+  grading. `a3-checker` performs the following.
+    * It checks if you have correct recording files. You will receive a 0 if this fails.
+    * It checks if you have used `nvim` correctly. You will receive a 0 if this fails.
+    * It flags if you have copied and pasted anything. You will receive a 0 if this fails.
+    * It performs some basic checks to see if you followed the tutorial.
+    * Note that if a check fails, it does not always tell you why. You need to debug it by yourself
+      and find out.
+    * This is not a grader but if the checker says that everything is good and if you are done
+      following the tutorial, you will get the full credit.
+    * It is entirely *your responsibility* to run `a3-checker` before submitting your work. If you
+      don't do it, you may get an unexpected grade.
 
 # Other Important Compiler Options
 
